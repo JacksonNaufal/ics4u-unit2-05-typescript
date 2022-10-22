@@ -1,6 +1,6 @@
 /**
  * The program is the classic
- * JacksonStack program
+ * Vehicle stats program
  *
  * By:      Jackson Naufal
  * Version: 1.0
