@@ -66,42 +66,4 @@ console.log('Changing color:')
 citroenAmi.setColor('purple')
 console.log(`New color: ${citroenAmi.getColor()}`)
 
-// new Peel p50
-console.log('\nCreated a Peel P50')
-const peelP50 = new Vehicle('red', 'FS-721-QT', 2, 135)
-
-console.log('Status:')
-peelP50.status()
-
-console.log('Accelerating, 3 of power for 10 sec.')
-peelP50.accelerate(3, 10)
-console.log(`New speed: ${String(peelP50.getSpeed())}`)
-
-console.log('Breaking, 1 of power for 10 sec.')
-peelP50.break(1, 10)
-console.log(`New speed: ${String(peelP50.getSpeed())}`)
-
-console.log('Changing color:')
-peelP50.setColor('pink')
-console.log(`New color: ${peelP50.getColor()}`)
-
-// new Weiner Mobile
-console.log('\nCreated a Weiner Mobile')
-const weinerMobile = new Vehicle('red, yellow', 'WY-324-DJ', 4, 175)
-
-console.log('Status:')
-weinerMobile.status()
-
-console.log('Accelerating, 3 of power for 10 sec.')
-weinerMobile.accelerate(10, 10)
-console.log(`New speed: ${String(weinerMobile.getSpeed())}`)
-
-console.log('Breaking, 1 of power for 10 sec.')
-weinerMobile.break(3, 10)
-console.log(`New speed: ${String(weinerMobile.getSpeed())}`)
-
-console.log('Changing color:')
-weinerMobile.setColor('orange')
-console.log(`New color: ${weinerMobile.getColor()}`)
-
 console.log('\nDone.')
